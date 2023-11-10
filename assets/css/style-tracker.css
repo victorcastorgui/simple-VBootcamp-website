@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body{
+    font-family: "JetBrains Mono", "serif";
+}
+.tracker-container {
+    background-color: #F7F7F7;
+}
+
+.tracker {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.tracker>h2 {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tracker-machine {
+    background-color: white;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+    border-bottom-left-radius: 4rem;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 70px;
+    width: 350px;
+    margin: auto;
+
+}
+
+.tracker-machine>h3 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+.tracker-machine>h2 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 50px;
+}
+
+.history {
+    margin-top: 2rem;
+}
+
+.history>h3 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.new-transaction {
+    margin-top: 2rem;
+}
+
+.new-transaction>h3 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.income-outcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.income {
+    padding-top: 1rem;
+}
+
+.income>p {
+    color: #2FCB71;
+}
+
+.outcome {
+    padding-top: 1rem;
+}
+
+.outcome>p {
+    color: #C24436;
+}
+
+.tracker-line {
+    margin-top: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transaction-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+}
+
+.transaction-form>label {
+    margin-bottom: 10px;
+}
+
+.transaction-form>input {
+    border-radius: 0.5rem;
+    border-style: none;
+    border: 2px solid #EEEEEE;
+    margin-bottom: 10px;
+    height: 3rem;
+}
+
+.transaction-detail {
+    padding-bottom: 2rem;
+}
+
+.submit-button {
+    background-color: #2D3146;
+    color: white;
+    border-radius: 0.5rem;
+    border-style: none;
+    padding: 10px;
+}
+
+.history > .list > li{
+    list-style: none;
+}
+
+.list{
+    padding: 0;
+}
+
+.list-item-minus{
+    display: flex;
+    justify-content: space-between;
+    border-right: 3px solid red;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-item-plus{
+    display: flex;
+    justify-content: space-between;
+    border-right: 3px solid green;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.delete{
+    display: none;
+    background-color: red;
+    color: black;
+    border-style: none;
+}
+
+.list-item:hover  .delete, .delete:hover{
+    display: inline-block;
+}
+

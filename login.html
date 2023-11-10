@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+</head>
+
+<body class="login">
+    <section class="picture">
+        <img src="assets/img/login-img.png">
+    </section>
+    <section class="login-container">
+        <div class="brand-title">
+            <h1>Brand<span>Name</span></h1>
+        </div>
+        <div class="login-content">
+            <div class="login-information">
+                <h2>Welcome</h2>
+                <p>Login here to access your account</p>
+            </div>
+            <form class="login-form" action="index.html">
+                <label><b>Email</b></label>
+                <input type="email" name="email" id="email" placeholder="Input your email" required>
+                <label><b>Password</b></label>
+                <input type="password" name="password" id="password" placeholder="Input your password" required>
+                <a href="index.html"><button onclick="store()" class="login-button">Login</button></a>
+                <hr>
+                <a href="index.html"><button class="button-login"><img
+                            src="assets/img/fontAwesomeIcon/google-color-icon.svg"> Login
+                        with Google</button></a>
+            </form>
+            <div class="sign-up">
+                <p>Don't have account? <a href="register.html">Sign Up</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function store() {
+            let inputEmail = document.getElementById("email");
+            localStorage.setItem("email", inputEmail.value);
+        }
+    </script>
+</body>
+
+</html>

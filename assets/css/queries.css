@@ -1,0 +1,99 @@
+@media screen and (max-width: 800px){
+    .programs{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .course-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-content{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-end{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .awesome-points{
+        flex-direction: column;
+    }
+
+    .awesome-points img{
+        margin-bottom: 1rem;
+    }
+
+    .contact-content{
+        flex-direction: column;
+    }
+
+    .product {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .picture{
+        width: 30%;
+    }
+    .login-container{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .programs{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .course-content{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-content{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-end{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .value-content{
+        grid-template-columns: 1fr;
+    }
+
+    .team-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service{
+        flex-direction: column;
+    }
+
+    .product {
+        grid-template-columns: 1fr;
+    }
+
+    .login{
+        flex-direction: column-reverse;
+    }
+    .picture{
+        margin-top: 10rem;
+        width: 100%;
+    }
+    .login-container{
+        width: 100%;
+    }
+
+    .reg{
+        flex-direction: column;
+    }
+
+}
